@@ -25,8 +25,8 @@ Para obter os arquivos de frontend e backend, basta clonar o repositório no dir
 git clone https://github.com/EmersonSousa15/Chatbot.git
 ```
 
-## Passo 1: Instalar as dependências
-Para começar, precisamos instalar o Flask e a biblioteca da API do Google Generative AI.
+## Passo 2: Instalar as dependências
+Precisamos instalar o Flask e a biblioteca da API do Google Generative AI.
 
 ### Instalar o Flask:
 Abra o terminal e execute o seguinte comando:
@@ -34,3 +34,18 @@ Abra o terminal e execute o seguinte comando:
 ```bash
 pip install Flask
 ```
+
+### Instalar o SDK da API Gemini:
+Abra o terminal e execute o seguinte comando:
+
+```bash
+pip install -q -U google-generativeai
+```
+
+## Passo 3: Obter uma chave de API
+Precisamos obter uma chave da API do Google Generative AI.
+
+### Obter chave: [API KEY](https://aistudio.google.com/app/apikey)
+
+## Passo 4: Programar API
+
